@@ -1,0 +1,38 @@
+# Secrets and Environment Variables
+.env
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# SQLite Databases & Local Storage
+*.db
+*.db-wal
+*.db-shm
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Generated Artifacts (created dynamically by tests/bot)
+generated_artifacts/invoices/*.pdf
+generated_artifacts/decks/*.pptx
+!generated_artifacts/.gitkeep
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
